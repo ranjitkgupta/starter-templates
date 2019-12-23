@@ -1,0 +1,6 @@
+/* Force an element not to collapse */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
